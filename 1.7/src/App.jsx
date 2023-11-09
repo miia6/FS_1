@@ -38,7 +38,7 @@ const App = () => {
       <p>bad {bad}</p>
       <p>all {allClicks.length}</p>
       <p>average {total/allClicks.length}</p>
-      <p>positive {good/allClicks.length}</p>
+      <p>positive {good*100/allClicks.length}</p>
     </div>
   )
 };
